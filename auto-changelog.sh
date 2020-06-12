@@ -10,8 +10,6 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
     AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern '.+-dev'"
 elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
     AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern '^\d.+-rc.\d$'"
-elif [ $CURRENT_BRANCH = $STAGING_KSS ]; then
-    AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern '.+-kss'"
 else
     AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern '^\d+.\d+.\d+$'"
 fi;
