@@ -9,7 +9,7 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
-    "release": "release-it --config=.release-it.yml"
+    "release": "release-it --config=.release-it.json"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
