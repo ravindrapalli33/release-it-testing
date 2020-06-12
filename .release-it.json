@@ -8,7 +8,7 @@
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
         "requireCleanWorkingDir": false,
         "requireBranch": false,
-        "requireUpstream": true,
+        "requireUpstream": false,
         "requireCommits": true,
         "addUntrackedFiles": true,
         "commit": true,
