@@ -1,0 +1,9 @@
+{
+    "output": "CHANGELOG.md",
+    "template": "compact",
+    "unreleased": true,
+    "commitLimit": false,
+    "sortCommits": "date",
+    "tagPrefix": "v",
+    "releaseSummary": true
+}
