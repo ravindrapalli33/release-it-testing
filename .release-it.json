@@ -9,7 +9,7 @@
         "requireCleanWorkingDir": false,
         "requireBranch": false,
         "requireUpstream": false,
-        "requireCommits": true,
+        "requireCommits": false,
         "addUntrackedFiles": true,
         "commit": true,
         "commitMessage": "Release ${version}",
