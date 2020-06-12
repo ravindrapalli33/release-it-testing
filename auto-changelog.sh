@@ -7,7 +7,7 @@ STAGING_BRANCH="staging"
 AUTO_CHANGE_LOG_COMMAND="npx auto-changelog -p --config .auto-changelog.json"
 
 if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
-    AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern .+-dev"
+    AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern ^\d.+-beta.\d$"
 elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
     AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern ^\d.+-rc.\d$"
 else
