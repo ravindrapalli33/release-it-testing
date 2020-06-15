@@ -33,10 +33,10 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
     echo "$(tput setaf 2)******* VERIFY CONFLUENCE / SM FOR CONFIRMATION *******$(tput sgr0)"
     echo "$(tput setaf 3)\n############################\n$(tput sgr0)"
 
-    echo "$(tput setaf 1)\nEnter 1 to continue or do not proceed if unsure(Enter 0 to exit): $(tput sgr0)"
+    echo "$(tput setaf 1)\nEnter 4 to continue without upgrade / do not proceed if unsure(Enter 5 to exit): $(tput sgr0)"
 
     PS3='Please select the version upgrade: '
-    options=("Major" "Minor" "Patch" "No")
+    options=("Major" "Minor" "Patch" "Continue", "Quit")
     select opt in "${options[@]}"
     do
         case $opt in
@@ -52,8 +52,11 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
                 RELEASE_IT_COMMAND+=" patch"
                 break
                 ;;
-            "No")
+            "Continue")
                 break
+                ;;
+            "Quit")
+                exit 0
                 ;;
             *) echo "invalid option $REPLY";;
         esac
