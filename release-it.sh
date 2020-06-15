@@ -52,9 +52,9 @@ do
 done
 
 if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
-    RELEASE_IT_COMMAND+=" --preReleaseId=beta"
+    RELEASE_IT_COMMAND+=" --preRelease=beta"
 elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
-    RELEASE_IT_COMMAND+=" --preReleaseId=rc"
+    RELEASE_IT_COMMAND+=" --preRelease=rc"
 elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
     RELEASE_IT_COMMAND+=""
 fi;
