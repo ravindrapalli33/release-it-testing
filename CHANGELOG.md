@@ -1,31 +1,88 @@
 ### Changelog
 
-#### [1.0.5](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4...1.0.5)
+#### [1.0.6-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6-beta.0...1.0.6-rc.0)
+
+> 15 June 2020
+
+#### [1.0.6-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5...1.0.6-beta.0)
+
+> 15 June 2020
+
+- Updated ignore commit pattern
+
+#### [1.0.5](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5-rc.0...1.0.5)
+
+> 15 June 2020
+
+#### [1.0.5-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5-beta.0...1.0.5-rc.0)
+
+> 15 June 2020
+
+#### [1.0.5-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4...1.0.5-beta.0)
 
 > 15 June 2020
 
 - Removed manual option for tag creation
 - Removed manual option from select options
 
-#### [1.0.4](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3...1.0.4)
+#### [1.0.4](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-rc.0...1.0.4)
+
+> 15 June 2020
+
+#### [1.0.4-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-beta.0...1.0.4-rc.0)
+
+> 15 June 2020
+
+#### [1.0.4-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3...1.0.4-beta.0)
 
 > 15 June 2020
 
 - Updated messages
 
-#### [1.0.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2...1.0.3)
+#### [1.0.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3-rc.0...1.0.3)
+
+> 15 June 2020
+
+#### [1.0.3-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3-beta.0...1.0.3-rc.0)
+
+> 15 June 2020
+
+#### [1.0.3-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2...1.0.3-beta.0)
 
 > 15 June 2020
 
 - Updated manual option message
 
-#### [1.0.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2)
+#### [1.0.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2-rc.0...1.0.2)
+
+> 15 June 2020
+
+#### [1.0.2-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2-beta.0...1.0.2-rc.0)
+
+> 15 June 2020
+
+#### [1.0.2-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2-beta.0)
 
 > 15 June 2020
 
 - Updated message when showing options
 
-#### [1.0.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0...1.0.1)
+#### [1.0.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-rc.0...1.0.1)
+
+> 15 June 2020
+
+#### [1.0.1-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-beta.1...1.0.1-rc.0)
+
+> 15 June 2020
+
+#### [1.0.1-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-beta.0...1.0.1-beta.1)
+
+> 15 June 2020
+
+- Fixed syntax
+- Fixed comparison syntax
+
+#### [1.0.1-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0...1.0.1-beta.0)
 
 > 15 June 2020
 
@@ -35,7 +92,29 @@
 - Fixed syntax
 - Fixed comparison syntax
 
-#### 1.0.0
+#### [1.0.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-rc.0...1.0.0)
+
+> 15 June 2020
+
+- Added options to change log and release it commands
+
+#### [1.0.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.2...1.0.0-rc.0)
+
+> 15 June 2020
+
+#### [1.0.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.1...1.0.0-beta.2)
+
+> 15 June 2020
+
+- Added options to change log and release it commands
+
+#### [1.0.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.0...1.0.0-beta.1)
+
+> 15 June 2020
+
+- Updated file 1
+
+#### 1.0.0-beta.0
 
 > 15 June 2020
 
