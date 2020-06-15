@@ -18,7 +18,7 @@ LAST_TAG="$(git describe --abbrev=0 --tags)"
 LAST_TAG=${LAST_TAG%-beta*}
 LAST_TAG=${LAST_TAG%-rc*}
 
-IS_LAST_TAG_RELEASED="git tag -l --sort=version:refname '${LAST_TAG}'"
+IS_LAST_TAG_RELEASED="$(git tag -l --sort=version:refname ${LAST_TAG})"
 
 if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] && [ IS_LAST_TAG_RELEASED != "" ]; then
     echo "$(tput setaf 3)\n#### POINTS TO CONSIDER WHEN DEPLOYING TO DEVELOPMENT BRANCH ####\n"
