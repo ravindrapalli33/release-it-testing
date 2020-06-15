@@ -1,8 +1,14 @@
 ### Changelog
 
+#### [1.0.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2...1.0.3)
+
+> 15 June 2020
+
 #### [1.0.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2)
 
 > 15 June 2020
+
+- Updated message when showing options
 
 #### [1.0.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0...1.0.1)
 
