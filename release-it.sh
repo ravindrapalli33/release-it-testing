@@ -38,7 +38,7 @@ echo "$(tput setaf 1)\nEnter 2 to continue / do not proceed if unsure(Enter 3 to
 options=("Manual" "Continue" "Quit")
 
 PS3='Please select the version upgrade: '
-IS_VERSION_INCREMENTED=""
+IS_VERSION_INCREMENTED="NO"
 
 select opt in "${options[@]}"
 do
@@ -57,7 +57,7 @@ do
     esac
 done
 
-if [ $IS_VERSION_INCREMENTED != "YES" ]; then
+if [ $IS_VERSION_INCREMENTED = "NO" ]; then
     if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
         RELEASE_IT_COMMAND+=" --preRelease=beta"
     elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
