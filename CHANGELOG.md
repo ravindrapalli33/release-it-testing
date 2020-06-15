@@ -1,5 +1,19 @@
 ### Changelog
 
+#### [1.8.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.7.0...1.8.0-beta.0)
+
+> 15 June 2020
+
+- Updated auto change log options
+
+#### [1.7.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.7.0-rc.0...1.7.0)
+
+> 15 June 2020
+
+#### [1.7.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.7.0-beta.0...1.7.0-rc.0)
+
+> 15 June 2020
+
 #### [1.7.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.6.0...1.7.0-beta.0)
 
 > 15 June 2020
