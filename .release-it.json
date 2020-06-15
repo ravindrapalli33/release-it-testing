@@ -23,7 +23,7 @@
         "pushRepo": ""
     },
     "npm": {
-        "publish": true,
+        "publish": false,
         "publishPath": ".",
         "tag": null,
         "otp": null,
