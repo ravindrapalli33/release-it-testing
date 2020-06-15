@@ -3,7 +3,7 @@
     "template": ".auto-changelog-compact-template.hbs",
     "unreleased": true,
     "commitLimit": false,
-    "sortCommits": "date",
+    "sortCommits": "relevance",
     "tagPrefix": "v",
     "releaseSummary": true
 }
