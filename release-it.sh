@@ -43,20 +43,24 @@ elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
 fi;
 
 PS3='Please select the version upgrade: '
+IS_VERSION_INCREMENTED=""
 
 select opt in "${options[@]}"
 do
     case $opt in
         "Major")
             RELEASE_IT_COMMAND+=" major"
+            IS_VERSION_INCREMENTED="YES"
             break
             ;;
         "Minor")
             RELEASE_IT_COMMAND+=" minor"
+            IS_VERSION_INCREMENTED="YES"
             break
             ;;
         "Patch")
             RELEASE_IT_COMMAND+=" patch"
+            IS_VERSION_INCREMENTED="YES"
             break
             ;;
         "Continue")
@@ -69,12 +73,14 @@ do
     esac
 done
 
-if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
-    RELEASE_IT_COMMAND+=" --preRelease=beta"
-elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
-    RELEASE_IT_COMMAND+=" --preRelease=rc"
-elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
-    RELEASE_IT_COMMAND+=""
+if [ $IS_VERSION_INCREMENTED = "" ]; then
+    if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
+        RELEASE_IT_COMMAND+=" --preRelease=beta"
+    elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
+        RELEASE_IT_COMMAND+=" --preRelease=rc"
+    elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
+        RELEASE_IT_COMMAND+=""
+    fi;
 fi;
 
 $RELEASE_IT_COMMAND
