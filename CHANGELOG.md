@@ -1,8 +1,18 @@
 ### Changelog
 
+#### [1.2.0-rc.1](https://github.com/ravindrapalli33/release-it-testing/compare/v1.2.0-rc.0...v1.2.0-rc.1)
+
+> 15 June 2020
+
 #### [1.2.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/v1.1.0-rc.0...v1.2.0-rc.0)
 
 > 15 June 2020
+
+- Customized change log appearance
+- Release 1.2.0-beta.0
+- Fixed updating change log
+- Release 1.2.0-beta.1
+- Release 1.2.0-rc.0
 
 #### [1.1.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/v1.0.0-rc.4-dev...v1.1.0-rc.0)
 
