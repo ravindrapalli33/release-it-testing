@@ -20,7 +20,12 @@ LAST_TAG=${LAST_TAG%-rc*}
 
 IS_LAST_TAG_RELEASED="$(git tag -l --sort=version:refname ${LAST_TAG})"
 
-if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] && [ IS_LAST_TAG_RELEASED != "" ]; then
+if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
+
+    if [ $IS_LAST_TAG_RELEASED = $LAST_TAG ]; then
+        echo "$(tput setaf 1)\nA version for this is already released to production it means the major, minor or patch should be increased$(tput sgr0)"
+    fi;
+
     echo "$(tput setaf 3)\n#### POINTS TO CONSIDER WHEN DEPLOYING TO DEVELOPMENT BRANCH ####\n"
     echo "* DO NOT BUMP VERSION(MAJOR, MINOR OR PATCH TILL A PRODUCTION VERSION IS RELEASED FOR THAT TAG)\n"
     echo "* INCREMENT MAJOR, MINOR OR PATCH HERE (DECIDE WITH TEAM) 'ONLY' FOR THE FIRST TIME WHEN PRODUCTION VERSION IS RELEASED FOR THAT TAG AND THIS IS THE FIRST VERSION AFTER IT\n"
@@ -31,7 +36,7 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] && [ IS_LAST_TAG_RELEASED != "" ]; 
     echo "$(tput setaf 1)\nEnter 1 to continue or do not proceed if unsure(Enter 0 to exit): $(tput sgr0)"
 
     PS3='Please select the version upgrade: '
-    options=("Major" "Minor" "Patch" "Quit")
+    options=("Major" "Minor" "Patch" "No")
     select opt in "${options[@]}"
     do
         case $opt in
@@ -47,7 +52,7 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] && [ IS_LAST_TAG_RELEASED != "" ]; 
                 RELEASE_IT_COMMAND+=" patch"
                 break
                 ;;
-            "Quit")
+            "No")
                 break
                 ;;
             *) echo "invalid option $REPLY";;
