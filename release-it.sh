@@ -34,21 +34,15 @@ echo "** SUBSEQUENT TIMES THE BETA VERSION IS AUTO INCREMENTED$(tput sgr0)\n"
 echo "$(tput setaf 2)******* VERIFY CONFLUENCE / SM FOR CONFIRMATION *******$(tput sgr0)"
 echo "$(tput setaf 3)\n############################\n$(tput sgr0)"
 
-echo "$(tput setaf 1)\nEnter 1 to continue / do not proceed if unsure(Enter 3 to exit): $(tput sgr0)"
-echo "$(tput setaf 2)\nManual option is mostly used for development environment $(tput sgr0)"
+echo "$(tput setaf 1)\nEnter 1 to continue / do not proceed if unsure(Enter 2 to exit): $(tput sgr0)"
 options=("Continue" "Manual" "Quit")
 
 PS3='Please select the @option: '
-IS_VERSION_INCREMENTED="NO"
 
 select opt in "${options[@]}"
 do
     case $opt in
         "Continue")
-            break
-            ;;
-        "Manual")
-            IS_VERSION_INCREMENTED="YES"
             break
             ;;
         "Quit")
@@ -58,14 +52,6 @@ do
     esac
 done
 
-if [ $IS_VERSION_INCREMENTED = "NO" ]; then
-    if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
-        RELEASE_IT_COMMAND+=" --preRelease=beta"
-    elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
-        RELEASE_IT_COMMAND+=" --preRelease=rc"
-    elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
-        RELEASE_IT_COMMAND+=""
-    fi;
-fi;
+echo "$(tput setaf 2)\nSELECT OTHER AND SPECIFY TAG$(tput sgr0)"
 
 $RELEASE_IT_COMMAND
