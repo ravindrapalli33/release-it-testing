@@ -51,4 +51,12 @@ do
     esac
 done
 
+if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
+    RELEASE_IT_COMMAND+=" --preRelease=beta"
+elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
+    RELEASE_IT_COMMAND+=" --preRelease=rc"
+elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
+    RELEASE_IT_COMMAND+=""
+fi;
+
 $RELEASE_IT_COMMAND
