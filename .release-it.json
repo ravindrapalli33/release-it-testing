@@ -5,7 +5,7 @@
         "after:release": "echo Successfully released ${name} ${version} to ${repo.repository}."
     },
     "git": {
-        "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
+        "changelog": "npx auto-changelog --stdout --config .auto-changelog.json",
         "requireCleanWorkingDir": false,
         "requireBranch": false,
         "requireUpstream": false,
