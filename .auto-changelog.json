@@ -5,5 +5,5 @@
     "commitLimit": false,
     "sortCommits": "date",
     "tagPrefix": "v",
-    "releaseSummary": false
+    "releaseSummary": true
 }
