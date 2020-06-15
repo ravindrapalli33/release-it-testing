@@ -1,5 +1,17 @@
 ### Changelog
 
+#### [1.0.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-rc.0...1.0.0-beta.2)
+
+> 15 June 2020
+
+- Added options to change log and release it commands
+
+#### [1.0.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.1...1.0.0-rc.0)
+
+> 15 June 2020
+
+- Release it configuration
+
 #### [1.0.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.0...1.0.0-beta.1)
 
 > 15 June 2020
