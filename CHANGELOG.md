@@ -1,5 +1,16 @@
 ### Changelog
 
+#### [1.0.5-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4...1.0.5-beta.0)
+
+> 15 June 2020
+
+- Removed manual option for tag creation
+- Removed manual option from select options
+
+#### [1.0.4](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-rc.0...1.0.4)
+
+> 15 June 2020
+
 #### [1.0.4-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-beta.0...1.0.4-rc.0)
 
 > 15 June 2020
