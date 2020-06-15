@@ -4,6 +4,5 @@
     "unreleased": true,
     "commitLimit": false,
     "sortCommits": "relevance",
-    "tagPrefix": "v",
     "releaseSummary": true
 }
