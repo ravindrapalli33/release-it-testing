@@ -1,11 +1,13 @@
 ### Changelog
 
-#### [1.3.0-beta.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0...1.3.0-beta.3)
+#### [1.4.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0...1.4.0-beta.0)
 
 > 15 June 2020
 
 - Updated change logs
 - Adding change logs by date
+- Release 1.3.0-beta.3
+- Fixed messages
 
 #### [1.3.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-rc.2...1.3.0)
 
@@ -32,7 +34,7 @@
 - Release 1.3.0-beta.1
 - Release 1.3.0-rc.1
 
-#### [1.3.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-beta.2...1.3.0-rc.0)
+#### [1.3.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-beta.3...1.3.0-rc.0)
 
 > 15 June 2020
 
@@ -45,6 +47,14 @@
 - Release 1.2.0-rc.0
 - Release 1.2.0-rc.1
 - Release 1.3.0-rc.0
+
+#### [1.3.0-beta.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-beta.2...1.3.0-beta.3)
+
+> 15 June 2020
+
+- Updated change logs
+- Adding change logs by date
+- Release 1.3.0-beta.3
 
 #### [1.3.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-beta.1...1.3.0-beta.2)
 
