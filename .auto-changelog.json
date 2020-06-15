@@ -4,5 +4,6 @@
     "unreleased": true,
     "commitLimit": false,
     "sortCommits": "date",
-    "releaseSummary": false
+    "releaseSummary": false,
+    "ignoreCommitPattern": "Release.+"
 }
