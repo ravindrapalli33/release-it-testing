@@ -5,5 +5,5 @@
     "commitLimit": false,
     "sortCommits": "date",
     "releaseSummary": true,
-    "ignoreCommitPattern": "Release.+"
+    "ignoreCommitPattern": "Release \\d+.\\d+.+"
 }
