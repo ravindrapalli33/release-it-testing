@@ -36,7 +36,7 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
     echo "$(tput setaf 1)\nEnter 4 to continue without upgrade / do not proceed if unsure(Enter 5 to exit): $(tput sgr0)"
 
     PS3='Please select the version upgrade: '
-    options=("Major" "Minor" "Patch" "Continue", "Quit")
+    options=("Major" "Minor" "Patch" "Continue" "Quit")
     select opt in "${options[@]}"
     do
         case $opt in
