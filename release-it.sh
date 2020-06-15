@@ -34,7 +34,7 @@ echo "** SUBSEQUENT TIMES THE BETA VERSION IS AUTO INCREMENTED$(tput sgr0)\n"
 echo "$(tput setaf 2)******* VERIFY CONFLUENCE / SM FOR CONFIRMATION *******$(tput sgr0)"
 echo "$(tput setaf 3)\n############################\n$(tput sgr0)"
 
-echo "$(tput setaf 1)\nEnter 1 to continue without upgrade / do not proceed if unsure(Enter 2 to exit): $(tput sgr0)"
+echo "$(tput setaf 1)\nEnter 1 to continue / do not proceed if unsure(Enter 2 to exit): $(tput sgr0)"
 
 PS3='Please select the option: '
 options=("Continue" "Quit")
