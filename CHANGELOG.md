@@ -1,8 +1,20 @@
 ### Changelog
 
+#### [1.6.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.5.0...1.6.0)
+
+> 15 June 2020
+
 #### [1.5.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.4.0...1.5.0)
 
 > 15 June 2020
+
+- Added new file
+- Updated config
+- Verifying an ignoreVersion option
+- Fixed version check for npm
+- Release 1.5.0-beta.0
+- Release 1.5.0-rc.0
+- Release 1.5.0
 
 #### [1.4.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0...1.4.0)
 
