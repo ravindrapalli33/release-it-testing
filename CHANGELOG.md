@@ -1,8 +1,18 @@
 ### Changelog
 
+#### [1.0.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2)
+
+> 15 June 2020
+
 #### [1.0.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0...1.0.1)
 
 > 15 June 2020
+
+- Added check for options display
+- Added version increment check to display options
+- Added option for manual editing of version
+- Fixed syntax
+- Fixed comparison syntax
 
 #### 1.0.0
 
