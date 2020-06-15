@@ -1,6 +1,6 @@
 {
     "output": "CHANGELOG.md",
-    "template": "compact",
+    "template": ".auto-changelog-compact-template.hbs",
     "unreleased": true,
     "commitLimit": false,
     "sortCommits": "date",
