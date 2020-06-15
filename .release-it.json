@@ -27,7 +27,7 @@
         "publishPath": ".",
         "tag": null,
         "otp": null,
-        "ignoreVersion": true,
+        "ignoreVersion": false,
         "skipChecks": false
     },
     "github": {
