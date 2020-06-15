@@ -23,7 +23,7 @@ LAST_TAG=${LAST_TAG%-rc*}
 
 IS_LAST_TAG_RELEASED="$(git tag -l --sort=version:refname ${LAST_TAG})"
 
-if [ $IS_LAST_TAG_RELEASED = $LAST_TAG ]; then
+if [ $IS_LAST_TAG_RELEASED = $LAST_TAG ] && [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
     echo "$(tput setaf 1)\nA version for this is already released to production it means the major, minor or patch should be increased$(tput sgr0)"
 fi;
 
