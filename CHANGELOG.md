@@ -1,5 +1,19 @@
 ### Changelog
 
+#### [1.0.6-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5...1.0.6-beta.0)
+
+> 15 June 2020
+
+- Updated ignore commit pattern
+
+#### [1.0.5](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5-rc.0...1.0.5)
+
+> 15 June 2020
+
+#### [1.0.5-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5-beta.0...1.0.5-rc.0)
+
+> 15 June 2020
+
 #### [1.0.5-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4...1.0.5-beta.0)
 
 > 15 June 2020
@@ -15,8 +29,6 @@
 
 > 15 June 2020
 
-- Release it configuration
-
 #### [1.0.4-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3...1.0.4-beta.0)
 
 > 15 June 2020
@@ -30,8 +42,6 @@
 #### [1.0.3-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3-beta.0...1.0.3-rc.0)
 
 > 15 June 2020
-
-- Release it configuration
 
 #### [1.0.3-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2...1.0.3-beta.0)
 
@@ -47,8 +57,6 @@
 
 > 15 June 2020
 
-- Release it configuration
-
 #### [1.0.2-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2-beta.0)
 
 > 15 June 2020
@@ -62,8 +70,6 @@
 #### [1.0.1-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-beta.1...1.0.1-rc.0)
 
 > 15 June 2020
-
-- Release it configuration
 
 #### [1.0.1-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-beta.0...1.0.1-beta.1)
 
@@ -89,8 +95,6 @@
 #### [1.0.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.2...1.0.0-rc.0)
 
 > 15 June 2020
-
-- Release it configuration
 
 #### [1.0.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.1...1.0.0-beta.2)
 
