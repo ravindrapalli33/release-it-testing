@@ -38,7 +38,7 @@ echo "$(tput setaf 1)\nEnter 1 to continue / do not proceed if unsure(Enter 3 to
 echo "$(tput setaf 2)\nManual option is mostly used for development environment $(tput sgr0)"
 options=("Continue" "Manual" "Quit")
 
-PS3='Please select the option: '
+PS3='Please select the @option: '
 IS_VERSION_INCREMENTED="NO"
 
 select opt in "${options[@]}"
