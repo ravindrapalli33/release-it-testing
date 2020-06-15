@@ -57,7 +57,7 @@ do
     esac
 done
 
-if [ $IS_VERSION_INCREMENTED = "" ]; then
+if [ $IS_VERSION_INCREMENTED != "YES" ]; then
     if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
         RELEASE_IT_COMMAND+=" --preRelease=beta"
     elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
