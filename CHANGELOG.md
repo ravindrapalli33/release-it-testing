@@ -1,5 +1,21 @@
 ### Changelog
 
+#### [1.0.3-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2...1.0.3-beta.0)
+
+> 15 June 2020
+
+- Updated manual option message
+
+#### [1.0.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2-rc.0...1.0.2)
+
+> 15 June 2020
+
+#### [1.0.2-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2-beta.0...1.0.2-rc.0)
+
+> 15 June 2020
+
+- Release it configuration
+
 #### [1.0.2-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2-beta.0)
 
 > 15 June 2020
