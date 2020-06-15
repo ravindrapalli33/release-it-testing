@@ -34,20 +34,20 @@ echo "** SUBSEQUENT TIMES THE BETA VERSION IS AUTO INCREMENTED$(tput sgr0)\n"
 echo "$(tput setaf 2)******* VERIFY CONFLUENCE / SM FOR CONFIRMATION *******$(tput sgr0)"
 echo "$(tput setaf 3)\n############################\n$(tput sgr0)"
 
-echo "$(tput setaf 1)\nEnter 2 to continue / do not proceed if unsure(Enter 3 to exit): $(tput sgr0)"
-options=("Manual" "Continue" "Quit")
+echo "$(tput setaf 1)\nEnter 1 to continue / do not proceed if unsure(Enter 3 to exit): $(tput sgr0)"
+options=("Continue" "Manual" "Quit")
 
-PS3='Please select the version upgrade: '
+PS3='Please select the option: '
 IS_VERSION_INCREMENTED="NO"
 
 select opt in "${options[@]}"
 do
     case $opt in
-        "Manual")
-            IS_VERSION_INCREMENTED="YES"
+        "Continue")
             break
             ;;
-        "Continue")
+        "Manual")
+            IS_VERSION_INCREMENTED="YES"
             break
             ;;
         "Quit")
