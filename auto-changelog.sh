@@ -11,7 +11,7 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
 elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
     AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern .+-rc.+"
 else
-    AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern \d+.\d+.\d+"
+    AUTO_CHANGE_LOG_COMMAND+=" --tag-pattern \d+.\d+.\d+$"
 fi;
 
 $AUTO_CHANGE_LOG_COMMAND
