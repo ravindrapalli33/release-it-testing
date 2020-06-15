@@ -1,8 +1,20 @@
 ### Changelog
 
+#### [1.5.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.4.0...1.5.0)
+
+> 15 June 2020
+
 #### [1.4.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0...1.4.0)
 
 > 15 June 2020
+
+- Updated change logs
+- Adding change logs by date
+- Release 1.3.0-beta.3
+- Fixed messages
+- Release 1.4.0-beta.0
+- Release 1.4.0-rc.1
+- Release 1.4.0
 
 #### [1.3.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.2.0...1.3.0)
 
