@@ -1,40 +1,47 @@
 ### Changelog
 
-#### [1.3.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/v1.3.0-beta.0...v1.3.0-beta.1)
+#### [1.3.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-beta.1...1.3.0-beta.2)
 
 > 15 June 2020
 
+- Updated release it configuration
+
+#### [1.3.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.3.0-beta.0...1.3.0-beta.1)
+
+> 15 June 2020
+
+- Release 1.3.0-beta.1
 - Updated release it config
 
-#### [1.3.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/v1.2.0-beta.2...v1.3.0-beta.0)
+#### [1.3.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.2.0-beta.2...1.3.0-beta.0)
 
 > 15 June 2020
 
 - Release 1.3.0-beta.0
 - Sorted commits based on relevance
 
-#### [1.2.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/v1.2.0-beta.1...v1.2.0-beta.2)
+#### [1.2.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.2.0-beta.1...1.2.0-beta.2)
 
 > 15 June 2020
 
 - Release 1.2.0-beta.2
 - Updated auto log config:
 
-#### [1.2.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/v1.2.0-beta.0...v1.2.0-beta.1)
+#### [1.2.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.2.0-beta.0...1.2.0-beta.1)
 
 > 15 June 2020
 
 - Release 1.2.0-beta.1
 - Fixed updating change log
 
-#### [1.2.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/v1.1.0-beta.0...v1.2.0-beta.0)
+#### [1.2.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.1.0-beta.0...1.2.0-beta.0)
 
 > 15 June 2020
 
 - Customized change log appearance
 - Release 1.2.0-beta.0
 
-#### [1.1.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/v1.0.0-beta.3...v1.1.0-beta.0)
+#### [1.1.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.3...1.1.0-beta.0)
 
 > 15 June 2020
 
@@ -42,14 +49,14 @@
 - Release 1.1.0-beta.0
 - Fixed changelog for production
 
-#### [1.0.0-beta.3](https://github.com/ravindrapalli33/release-it-testing/compare/v1.0.0-beta.2...v1.0.0-beta.3)
+#### [1.0.0-beta.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.2...1.0.0-beta.3)
 
 > 15 June 2020
 
 - Removed the branch check for showing options
 - Release 1.0.0-beta.3
 
-#### [1.0.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/v1.0.0-beta.1...v1.0.0-beta.2)
+#### [1.0.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.1...1.0.0-beta.2)
 
 > 15 June 2020
 
@@ -61,7 +68,7 @@
 - Verifying the beta version is released
 - Updated Last tag version check
 
-#### [1.0.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/v1.0.0-beta.0...v1.0.0-beta.1)
+#### [1.0.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.0...1.0.0-beta.1)
 
 > 12 June 2020
 
