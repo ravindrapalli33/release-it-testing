@@ -1,5 +1,11 @@
 ### Changelog
 
+#### [1.0.4-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-beta.0...1.0.4-rc.0)
+
+> 15 June 2020
+
+- Release it configuration
+
 #### [1.0.4-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3...1.0.4-beta.0)
 
 > 15 June 2020
