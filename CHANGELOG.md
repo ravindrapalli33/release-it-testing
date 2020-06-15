@@ -1,5 +1,40 @@
 ### Changelog
 
+#### [1.6.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.5.0...1.6.0-beta.0)
+
+> 15 June 2020
+
+- Removed release summary message from changelog
+
+#### [1.5.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.5.0-rc.0...1.5.0)
+
+> 15 June 2020
+
+- Release 1.0.0
+- Release 1.1.0
+- Release 1.2.0
+- Release 1.3.0
+- Release 1.4.0
+- Release 1.5.0
+
+#### [1.5.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.5.0-beta.0...1.5.0-rc.0)
+
+> 15 June 2020
+
+- Release 1.0.0-rc.1
+- Release it configuration
+- Release 1.0.0-rc.2
+- Release 1.0.0-rc.0
+- Release 1.0.0-rc.0
+- Release 1.1.0-rc.0
+- Release 1.2.0-rc.0
+- Release 1.2.0-rc.1
+- Release 1.3.0-rc.0
+- Release 1.3.0-rc.1
+- Release 1.3.0-rc.2
+- Release 1.4.0-rc.1
+- Release 1.5.0-rc.0
+
 #### [1.5.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.4.0...1.5.0-beta.0)
 
 > 15 June 2020
@@ -8,6 +43,7 @@
 - Updated config
 - Verifying an ignoreVersion option
 - Fixed version check for npm
+- Release 1.5.0-beta.0
 
 #### [1.4.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.4.0-rc.1...1.4.0)
 
