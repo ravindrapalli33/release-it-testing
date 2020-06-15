@@ -1,9 +1,16 @@
 ### Changelog
 
+#### [1.3.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/v1.3.0-beta.0...v1.3.0-beta.1)
+
+> 15 June 2020
+
+- Updated release it config
+
 #### [1.3.0-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/v1.2.0-beta.2...v1.3.0-beta.0)
 
 > 15 June 2020
 
+- Release 1.3.0-beta.0
 - Sorted commits based on relevance
 
 #### [1.2.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/v1.2.0-beta.1...v1.2.0-beta.2)
