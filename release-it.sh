@@ -34,13 +34,8 @@ echo "** SUBSEQUENT TIMES THE BETA VERSION IS AUTO INCREMENTED$(tput sgr0)\n"
 echo "$(tput setaf 2)******* VERIFY CONFLUENCE / SM FOR CONFIRMATION *******$(tput sgr0)"
 echo "$(tput setaf 3)\n############################\n$(tput sgr0)"
 
-if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] || [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
-    echo "$(tput setaf 1)\nEnter 4 to continue without upgrade / do not proceed if unsure(Enter 5 to exit): $(tput sgr0)"
-    options=("Major" "Minor" "Patch" "Continue" "Quit")
-elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
-    echo "$(tput setaf 1)\nEnter 1 to continue / do not proceed if unsure(Enter 2 to exit): $(tput sgr0)"
-    options=("Continue" "Quit")
-fi;
+echo "$(tput setaf 1)\nEnter 2 to continue / do not proceed if unsure(Enter 3 to exit): $(tput sgr0)"
+options=("Manual" "Continue" "Quit")
 
 PS3='Please select the version upgrade: '
 IS_VERSION_INCREMENTED=""
@@ -48,18 +43,7 @@ IS_VERSION_INCREMENTED=""
 select opt in "${options[@]}"
 do
     case $opt in
-        "Major")
-            RELEASE_IT_COMMAND+=" major"
-            IS_VERSION_INCREMENTED="YES"
-            break
-            ;;
-        "Minor")
-            RELEASE_IT_COMMAND+=" minor"
-            IS_VERSION_INCREMENTED="YES"
-            break
-            ;;
-        "Patch")
-            RELEASE_IT_COMMAND+=" patch"
+        "Manual")
             IS_VERSION_INCREMENTED="YES"
             break
             ;;
