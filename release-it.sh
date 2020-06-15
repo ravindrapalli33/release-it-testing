@@ -51,14 +51,4 @@ do
     esac
 done
 
-if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ]; then
-    RELEASE_IT_COMMAND+=" --preReleaseId=beta"
-elif [ $CURRENT_BRANCH = $STAGING_BRANCH ]; then
-    RELEASE_IT_COMMAND+=" --preReleaseId=rc"
-elif [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
-    RELEASE_IT_COMMAND+=""
-else
-    RELEASE_IT_COMMAND = "git push origin " + $CURRENT_BRANCH;
-fi;
-
 $RELEASE_IT_COMMAND
