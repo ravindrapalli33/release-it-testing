@@ -1,5 +1,16 @@
 ### Changelog
 
+#### [1.0.7-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6...1.0.7-beta.0)
+
+> 17 June 2020
+
+- Added extra check to push changes for other branches than default
+- Updated condition to verify default branches
+
+#### [1.0.6](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6-rc.0...1.0.6)
+
+> 15 June 2020
+
 #### [1.0.6-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6-beta.0...1.0.6-rc.0)
 
 > 15 June 2020
