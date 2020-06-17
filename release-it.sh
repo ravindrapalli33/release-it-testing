@@ -52,7 +52,7 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] || [ $CURRENT_BRANCH = $STAGING_BRA
 
     echo "$(tput setaf 2)\nSELECT OTHER AND SPECIFY TAG$(tput sgr0)"
 else
-    RELEASE_IT_COMMAND = "$(git push origin ${CURRENT_BRANCH})"
+    RELEASE_IT_COMMAND="$(git push origin ${CURRENT_BRANCH})"
 fi;
 
 
