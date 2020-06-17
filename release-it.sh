@@ -14,7 +14,7 @@ fi;
 
 RELEASE_IT_COMMAND="release-it --config=.release-it.json"
 
-if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] && [ $CURRENT_BRANCH = $STAGING_BRANCH ] && [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
+if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] || [ $CURRENT_BRANCH = $STAGING_BRANCH ] || [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
     LAST_TAG="$(git describe --abbrev=0 --tags)"
     LAST_TAG=${LAST_TAG%-beta*}
     LAST_TAG=${LAST_TAG%-rc*}
