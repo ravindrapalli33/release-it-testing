@@ -1,5 +1,9 @@
 ### Changelog
 
+#### [1.0.7-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-beta.0...1.0.7-rc.0)
+
+> 17 June 2020
+
 #### [1.0.7-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6...1.0.7-beta.0)
 
 > 17 June 2020
