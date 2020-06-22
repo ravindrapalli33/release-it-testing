@@ -1,14 +1,24 @@
 ### Changelog
 
-#### [1.0.7-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-rc.0...1.0.7-beta.1)
+#### [v2.0.1-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/v2.0.0...v2.0.1-beta.0)
+
+> 22 June 2020
+
+#### [v2.0.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-rc.0...v2.0.0)
 
 > 17 June 2020
 
 - Fixed syntax error
 
-#### [1.0.7-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-beta.0...1.0.7-rc.0)
+#### [1.0.7-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-beta.1...1.0.7-rc.0)
 
 > 17 June 2020
+
+#### [1.0.7-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-beta.0...1.0.7-beta.1)
+
+> 17 June 2020
+
+- Fixed syntax error
 
 #### [1.0.7-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6...1.0.7-beta.0)
 
