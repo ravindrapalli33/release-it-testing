@@ -5,5 +5,5 @@
     "commitLimit": false,
     "sortCommits": "date",
     "releaseSummary": true,
-    "ignoreCommitPattern": "Release \\d+.\\d+.+|Release it.*"
+    "ignoreCommitPattern": "Release \\d+.\\d+.+|Release it.*|^(?!KOLIBRID).*"
 }

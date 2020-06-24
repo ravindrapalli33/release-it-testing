@@ -1,176 +1,42 @@
 ### Changelog
 
-#### [1.0.7-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.7-beta.0...1.0.7-rc.0)
+#### [0.0.1-beta.5](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.4...0.0.1-beta.5)
 
-> 17 June 2020
+> 24 June 2020
 
-#### [1.0.7-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6...1.0.7-beta.0)
+- KOLIBRID-3434899 [fix] FIxed syntax error
 
-> 17 June 2020
+#### [0.0.1-beta.4](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.3...0.0.1-beta.4)
 
-- Added extra check to push changes for other branches than default
-- Updated condition to verify default branches
+> 24 June 2020
 
-#### [1.0.6](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6-rc.0...1.0.6)
+- KOLIBRID-343434335 [fix] Fixed the change log generation other than initial times
 
-> 15 June 2020
+#### [0.0.1-beta.3](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.2...0.0.1-beta.3)
 
-#### [1.0.6-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.6-beta.0...1.0.6-rc.0)
+> 24 June 2020
 
-> 15 June 2020
+- KOLIBRID-379879 [fix] Added fix to changelog generation
 
-#### [1.0.6-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5...1.0.6-beta.0)
+#### [0.0.1-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.1...0.0.1-beta.2)
 
-> 15 June 2020
+> 24 June 2020
 
-- Updated ignore commit pattern
+- KOLIBRID-34343 [fix] Added statement to verify first tag check
 
-#### [1.0.5](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5-rc.0...1.0.5)
+#### [0.0.1-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.0...0.0.1-beta.1)
 
-> 15 June 2020
+> 24 June 2020
 
-#### [1.0.5-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.5-beta.0...1.0.5-rc.0)
+- KOLIBRID-3434 [fix] Removed echo statememnt
 
-> 15 June 2020
+#### 0.0.1-beta.0
 
-#### [1.0.5-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4...1.0.5-beta.0)
+> 24 June 2020
 
-> 15 June 2020
-
-- Removed manual option for tag creation
-- Removed manual option from select options
-
-#### [1.0.4](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-rc.0...1.0.4)
-
-> 15 June 2020
-
-#### [1.0.4-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.4-beta.0...1.0.4-rc.0)
-
-> 15 June 2020
-
-#### [1.0.4-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3...1.0.4-beta.0)
-
-> 15 June 2020
-
-- Updated messages
-
-#### [1.0.3](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3-rc.0...1.0.3)
-
-> 15 June 2020
-
-#### [1.0.3-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.3-beta.0...1.0.3-rc.0)
-
-> 15 June 2020
-
-#### [1.0.3-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2...1.0.3-beta.0)
-
-> 15 June 2020
-
-- Updated manual option message
-
-#### [1.0.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2-rc.0...1.0.2)
-
-> 15 June 2020
-
-#### [1.0.2-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.2-beta.0...1.0.2-rc.0)
-
-> 15 June 2020
-
-#### [1.0.2-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1...1.0.2-beta.0)
-
-> 15 June 2020
-
-- Updated message when showing options
-
-#### [1.0.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-rc.0...1.0.1)
-
-> 15 June 2020
-
-#### [1.0.1-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-beta.1...1.0.1-rc.0)
-
-> 15 June 2020
-
-#### [1.0.1-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.1-beta.0...1.0.1-beta.1)
-
-> 15 June 2020
-
-- Fixed syntax
-- Fixed comparison syntax
-
-#### [1.0.1-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0...1.0.1-beta.0)
-
-> 15 June 2020
-
-- Added check for options display
-- Added version increment check to display options
-- Added option for manual editing of version
-
-#### [1.0.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-rc.0...1.0.0)
-
-> 15 June 2020
-
-- Added options to change log and release it commands
-
-#### [1.0.0-rc.0](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.2...1.0.0-rc.0)
-
-> 15 June 2020
-
-#### [1.0.0-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.1...1.0.0-beta.2)
-
-> 15 June 2020
-
-- Added options to change log and release it commands
-
-#### [1.0.0-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/1.0.0-beta.0...1.0.0-beta.1)
-
-> 15 June 2020
-
-- Updated file 1
-
-#### 1.0.0-beta.0
-
-> 15 June 2020
-
-- Initial commit
-- Initial Commit
-- Added release it configuration
-- Removed unused config
-- Added release command
-- Updated release it configuration
-- Set upstream false
-- Updated auto logging
-- Fixed auto changelog issues with updating log
-- Fixed auto change log printing to change log file
-- Updated release it config to accept no commits
-- Updated tags for development and staging environment
-- Updated release it file name
-- Updated auto change log patterns
-- Updated release it config and JSON properties
-- Updated Last tag version check
-- Verifying the beta version is released
-- Added extra check for verifying production version
-- Fix release it command
-- Fixed syntax error
-- Removed the branch check for showing options
-- Fixed changelog for production
-- Fixed Option selection during release
-- Customized change log appearance
-- Fixed updating change log
-- Updated auto log config:
-- Sorted commits based on relevance
-- Updated release it config
-- Updated release it configuration
-- Updated change logs
-- Adding change logs by date
-- Fixed messages
-- Added new file
-- Updated config
-- Verifying an ignoreVersion option
-- Fixed version check for npm
-- Removed release summary message from changelog
-- Ignoring commit pattern
-- Updated auto change log options
-- Updated ignore commit regex pattern
-- Added tag patterns in auto changelog
-- Add preRelease option to release it config
-- Fixed pre releases
+- KOLIBRID-test commit message
+- KOLIBRID-25059 [fix] Fix applied to ignore commit messages
+- KOLIBRID-12 [feat] Added option for updating change log for the first time
+- KOLIBRID-1245 [fix] Added extra conditions to change log to handle initial version
+- KOLIBRID [fix] Added hooks for updating changelog
+- KOLIBRID-232 [fix] Updated hook sequence for changelog
