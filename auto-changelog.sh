@@ -13,6 +13,6 @@ TAG_LENGTH="$(git tag | wc -l)"
 if [ "$1" = "FIRST_TAG_CHECK" ] && ([ $TAG_LENGTH = 0 ] || [ $TAG_LENGTH = 1 ]); then
     $AUTO_CHANGE_LOG_COMMAND
     echo "$(git add . && git commit -m 'Updated change log' && git push origin $CURRENT_BRANCH)"
-else
+elif ["$1" = "UPDATE"]; then
     $AUTO_CHANGE_LOG_COMMAND
 fi;

@@ -1,7 +1,7 @@
 
 {
     "hooks": {
-        "after:bump": "sh auto-changelog.sh && npx cordova-set-version",
+        "after:bump": "sh auto-changelog.sh UPDATE && npx cordova-set-version",
         "after:git:release": "sh auto-changelog.sh FIRST_TAG_CHECK",
         "after:release": "echo Successfully released ${name} ${version} to ${repo.repository}."
     },
