@@ -1,8 +1,10 @@
 ### Changelog
 
-#### [0.0.1-beta.0](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.0...0.0.1-beta.0)
+#### [0.0.1-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.0...0.0.1-beta.1)
 
 > 24 June 2020
+
+- KOLIBRID-3434 [fix] Removed echo statememnt
 
 #### 0.0.1-beta.0
 
