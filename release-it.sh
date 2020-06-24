@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD | tr '[:upper:]' '[:lower:]')"
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 MASTER_BRANCH="master"
 DEVELOPMENT_BRANCH="development"
 STAGING_BRANCH="staging"
@@ -54,6 +54,5 @@ if [ $CURRENT_BRANCH = $DEVELOPMENT_BRANCH ] || [ $CURRENT_BRANCH = $STAGING_BRA
 else
     RELEASE_IT_COMMAND="$(git push origin ${CURRENT_BRANCH})"
 fi;
-
 
 $RELEASE_IT_COMMAND
