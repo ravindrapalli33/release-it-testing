@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD | tr '[:upper:]' '[:lower:]')"
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 PRODUCTION_BRANCH="production"
 
 AUTO_CHANGE_LOG_COMMAND="npx auto-changelog -p --config .auto-changelog.json"
@@ -10,3 +10,8 @@ if [ $CURRENT_BRANCH = $PRODUCTION_BRANCH ]; then
 fi;
 
 $AUTO_CHANGE_LOG_COMMAND
+
+if [ "$1" = "FIRST_TAG_CHECK" ]; then
+    echo "FIRST CHECK EXECUTED"
+    echo "$(git add . && git commit -m 'Updated change log' && git push)"
+fi;
