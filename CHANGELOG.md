@@ -1,5 +1,11 @@
 ### Changelog
 
+#### [0.0.1-beta.2](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.1...0.0.1-beta.2)
+
+> 24 June 2020
+
+- KOLIBRID-34343 [fix] Added statement to verify first tag check
+
 #### [0.0.1-beta.1](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.0...0.0.1-beta.1)
 
 > 24 June 2020
