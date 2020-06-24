@@ -1,5 +1,17 @@
 ### Changelog
 
+#### [0.0.1-beta.5](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.4...0.0.1-beta.5)
+
+> 24 June 2020
+
+- KOLIBRID-3434899 [fix] FIxed syntax error
+
+#### [0.0.1-beta.4](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.3...0.0.1-beta.4)
+
+> 24 June 2020
+
+- KOLIBRID-343434335 [fix] Fixed the change log generation other than initial times
+
 #### [0.0.1-beta.3](https://github.com/ravindrapalli33/release-it-testing/compare/0.0.1-beta.2...0.0.1-beta.3)
 
 > 24 June 2020
