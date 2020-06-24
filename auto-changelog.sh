@@ -11,7 +11,9 @@ fi;
 
 $AUTO_CHANGE_LOG_COMMAND
 
-if [ "$1" = "FIRST_TAG_CHECK" ]; then
+TAG_LENGTH="$(git tag | wc -l)"
+
+if [ "$1" = "FIRST_TAG_CHECK" ] && ([ $TAG_LENGTH = 0 ] || [ $TAG_LENGTH = 1 ]); then
     echo "FIRST CHECK EXECUTED"
-    echo "$(git add . && git commit -m 'Updated change log' && git push)"
+    echo "$(git add . && git commit -m 'Updated change log')"
 fi;
