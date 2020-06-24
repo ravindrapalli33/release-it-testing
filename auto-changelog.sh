@@ -14,5 +14,6 @@ $AUTO_CHANGE_LOG_COMMAND
 TAG_LENGTH="$(git tag | wc -l)"
 
 if [ "$1" = "FIRST_TAG_CHECK" ] && ([ $TAG_LENGTH = 0 ] || [ $TAG_LENGTH = 1 ]); then
+    echo "******************************"
     echo "$(git add . && git commit -m 'Updated change log' && git push origin $CURRENT_BRANCH)"
 fi;
